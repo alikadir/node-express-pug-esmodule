@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h2 User Lists
+  if users
+    each user in users
+      div(style=`display:flex; width:100px; justify-content:space-between;`)
+        div= user.name
+        div= user.age
+  else
+    h2 user list is empty.
+  br
+  a(href="/") go to index page
