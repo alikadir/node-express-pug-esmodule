@@ -1,5 +1,5 @@
 import express from "express";
-import users from "../data/globalUserList.mjs";
+import users from "../data/globalUserList.js";
 const router = express.Router();
 
 router.get("/", (req, res, next) => {

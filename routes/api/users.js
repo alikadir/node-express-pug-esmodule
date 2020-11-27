@@ -1,4 +1,4 @@
-import users from "../../data/globalUserList.mjs";
+import users from "../../data/globalUserList.js";
 import express from "express";
 const router = express.Router();
 

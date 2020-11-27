@@ -6,9 +6,9 @@ import logger from "morgan";
 
 const __dirname = path.resolve();
 
-import apiUsersRouter from "./routes/api/users.mjs";
-import usersRouter from "./routes/users.mjs";
-import indexRouter from "./routes/index.mjs";
+import apiUsersRouter from "./routes/api/users.js";
+import usersRouter from "./routes/users.js";
+import indexRouter from "./routes/index.js";
 
 const app = express();
 
